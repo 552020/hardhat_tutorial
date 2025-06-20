@@ -273,4 +273,27 @@ If you encounter similar issues:
 - Configure networks for different environments
 - Add gas optimization testing
 - Implement integration tests
+
+## Documentation
+
+For detailed guides and references, see the `docs/` folder:
+
+- **[Hardhat Network Guide](./docs/hardhat-network.md)** - Understanding and using Hardhat's local blockchain for development and testing
+
+### Quick Reference Commands
+
+```bash
+# Compile contracts
+npx hardhat compile
+
+# Run tests
+npx hardhat test
+
+# Start local network
+npx hardhat node
+
+# Deploy to local network
+npx hardhat run scripts/deploy.js --network localhost
+```
+
 # hardhat_tutorial
